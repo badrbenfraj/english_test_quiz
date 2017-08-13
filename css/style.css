@@ -14,7 +14,6 @@ body{
         font:normal 0.9em/1em "Helvetica Neue", Helvetica, Arial, sans-serif; 
         background-image: url("../img/bg.jpg");
         background-repeat: no-repeat;
-        background-position: center;
         background-size: cover;
 } 
 ol,ul{
