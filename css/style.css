@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
 body{
         line-height:1;
         font:normal 0.9em/1em "Helvetica Neue", Helvetica, Arial, sans-serif; 
-        background-image: url("bg.jpg");
+        background-image: url("../img/bg.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
