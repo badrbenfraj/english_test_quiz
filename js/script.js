@@ -1,14 +1,4 @@
 /** Simple JavaScript Quiz
-     * version 0.1.0
-     * http://journalism.berkeley.edu
-     * created by: Jeremy Rue @jrue
-     *
-     * Copyright (c) 2013 The Regents of the University of California
-     * Released under the GPL Version 2 license
-     * http://www.opensource.org/licenses/gpl-2.0.php
-     * This program is distributed in the hope that it will be useful, but
-     * WITHOUT ANY WARRANTY; without even the implied warranty of
-     * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
      */
     var quiztitle = "English Test";
     /**
