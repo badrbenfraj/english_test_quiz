@@ -269,12 +269,7 @@
             if(typeof choices !== "undefined" && $.type(choices) == "array"){
                 $('#choice-block').empty();
                 for(var i=0;i<choices.length; i++){
-                    $(document.createElement('li')).addClass('choice choice-box').attr('data-index', i).text(choices[i]).appendTo('#choice-block'); 
-                    $('.choice-box').click(function(){
-       <?php url: 'hello.php' ?> 
-
-    }
-)                   
+                    $(document.createElement('li')).addClass('choice choice-box').attr('data-index', i).text(choices[i]).appendTo('#choice-block');           
                 }
             }
         }
