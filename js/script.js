@@ -19,7 +19,7 @@
                                     "C: are"
                                 ],
             "correct"       :   "B: is",
-            "explanation"   :   "",
+            "explanation"   :   "the correct answer is 'IS'",
         },
         {
             "main_question" : "choose the opposite adjective, A, B, or C.",
@@ -269,7 +269,12 @@
             if(typeof choices !== "undefined" && $.type(choices) == "array"){
                 $('#choice-block').empty();
                 for(var i=0;i<choices.length; i++){
-                    $(document.createElement('li')).addClass('choice choice-box').attr('data-index', i).text(choices[i]).appendTo('#choice-block');                    
+                    $(document.createElement('li')).addClass('choice choice-box').attr('data-index', i).text(choices[i]).appendTo('#choice-block'); 
+                    $('.choice-box').click(function(){
+       <?php url: 'hello.php' ?> 
+
+    }
+)                   
                 }
             }
         }
