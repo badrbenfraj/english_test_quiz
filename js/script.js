@@ -1,7 +1,4 @@
-/** Simple JavaScript Quiz
-    * created by: Jeremy Rue @jrue
-    * modified by badrdine benfraj @badrbenfraj 
-    */
+
     var quiztitle = "English Test";
     /**
     * Set the information about your questions here. The correct answer string needs to match
